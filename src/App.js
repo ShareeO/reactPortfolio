@@ -5,15 +5,22 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import { useState } from 'react';
 
 function App() {
+  const [page, setPage] = useState('about')
+
+const handlePageChange= (page) => {
+  setPage(page)
+}
+
   return (
     <div className="App">
-      <Header/>
-        {/* <AboutMe/> */}
-        {/* <Portfolio/> */}
-        {/* <Contact/> */}
-        <Resume/>
+      <Header onPageChange={handlePageChange}/>
+      {page === "about" && <AboutMe/> }
+      {page === "portfolio" && <Portfolio/> }
+      {page === "cntact" && <Contact/> }
+      {page === "resume" && <Resume/> }  
       <Footer/>
     </div>
   );

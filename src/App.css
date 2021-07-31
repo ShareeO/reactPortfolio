@@ -31,6 +31,10 @@ ul.topnav li a.active {background-color: #e73bd9;}
   ul.topnav li {float: none;}
 }
 
+/* about me */
+.about-text {
+  padding: 20px;
+}
 /* Portfolio */
 .project-card {
   border: 2px solid #e73bd9;
@@ -127,8 +131,16 @@ ul.topnav li a.active {background-color: #e73bd9;}
 /* Footer */
 footer { 
   justify-content: center;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(12, 209, 55);
+  color: white;
+  text-align: center;
 }
 
 footer a {
-  
+  padding: 6px;
 }

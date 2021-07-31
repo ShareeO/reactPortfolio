@@ -16,8 +16,8 @@ function Resume (props) {
                     <li> JavaScript</li>
                     <li> React</li>
                 </ul>
-
             </section>
+            
 {/* Back end */}
             <section>
                 <h4>Back End Proficincies</h4>
@@ -28,7 +28,6 @@ function Resume (props) {
                 <li>NoSQL</li>
                 <li>GraphQL </li>
                 </ul>
-
             </section>
         </main>
     )
