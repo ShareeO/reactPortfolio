@@ -12,21 +12,21 @@ function Resume (props) {
                 <h4>Front End Proficincies</h4>
                 <ul>
                     <li> HTML </li>
-                    <li> CSS</li>
-                    <li> JavaScript</li>
-                    <li> React</li>
+                    <li> CSS </li>
+                    <li> JavaScript </li>
+                    <li> React </li>
                 </ul>
             </section>
-            
+
 {/* Back end */}
             <section>
                 <h4>Back End Proficincies</h4>
                 <ul>
-                <li>Express</li>
-                <li>SQL</li>
-                <li>MVC</li>
-                <li>NoSQL</li>
-                <li>GraphQL </li>
+                <li> Express </li>
+                <li> SQL </li>
+                <li> MVC </li>
+                <li> NoSQL </li>
+                <li> GraphQL </li>
                 </ul>
             </section>
         </main>
