@@ -1,5 +1,6 @@
 import React from "react";
-
+import projects from "../assets/js/projects";
+import Project from "../components/Project";
 
 function Portfolio (props) {
     return (
@@ -8,7 +9,9 @@ function Portfolio (props) {
 
             {/* Listing Projects */}
             <section>
-                
+            {projects.map((project,i) => {
+                return <Project key ={i} project={project}/>
+            })}
 
             </section>
         </main>

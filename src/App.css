@@ -31,10 +31,27 @@ ul.topnav li a.active {background-color: #e73bd9;}
   ul.topnav li {float: none;}
 }
 
+/* Portfolio */
+.project-card {
+  border: 2px solid #e73bd9;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  margin: 5px auto;
+}
 
+.project-card .img-box {
+  width: 175px;
+  height: 150px;
+  margin: 5px auto;
+  max-height: 50%;
+}
 
-
-
+.project-card .img-box img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
 
 /* Footer */
 footer { 
