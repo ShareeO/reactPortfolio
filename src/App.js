@@ -19,7 +19,7 @@ const handlePageChange= (page) => {
       <Header onPageChange={handlePageChange}/>
       {page === "about" && <AboutMe/> }
       {page === "portfolio" && <Portfolio/> }
-      {page === "cntact" && <Contact/> }
+      {page === "contact" && <Contact/> }
       {page === "resume" && <Resume/> }  
       <Footer/>
     </div>
